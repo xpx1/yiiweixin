@@ -1,0 +1,90 @@
+2017-10-25 18:02:55 [ time:1.4450831413269 ] url: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96 
+method: POST 
+data: [] 
+result: {"access_token":"MNcyeXAeqbrJm1vlstheF2uRxvqRAs6B-ZmiUspclFG4ADgQwVCTAyLlZeB_DNLRxDmUtQ6fxMe0pkNmaeIbY_tMr6P_OASzwnJgl9SrsdGbxSRPK7muffDc5jE33N42WMYdAIACSE","expires_in":7200} 
+errorno: 0 error:  
+2017-10-25 18:02:55 [ time:0.18401098251343 ] url: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=MNcyeXAeqbrJm1vlstheF2uRxvqRAs6B-ZmiUspclFG4ADgQwVCTAyLlZeB_DNLRxDmUtQ6fxMe0pkNmaeIbY_tMr6P_OASzwnJgl9SrsdGbxSRPK7muffDc5jE33N42WMYdAIACSE 
+method: POST 
+data: "{\"button\":[{\"name\":\"\u5546\u57ce1\",\"type\":\"view\",\"url\":\"http:\\\/\\\/www.yiiweixin.com\\\/m\\\/\"},{\"name\":\"\u62112\",\"type\":\"view\",\"url\":\"http:\\\/\\\/www.yiiweixin.com\\\/m\\\/user\\\/index\"}]}" 
+result: {"errcode":44002,"errmsg":"empty post data hint: [AhOnka0772vr24]"} 
+errorno: 0 error:  
+2017-10-25 18:04:22 [ time:0.12600708007812 ] url: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=MNcyeXAeqbrJm1vlstheF2uRxvqRAs6B-ZmiUspclFG4ADgQwVCTAyLlZeB_DNLRxDmUtQ6fxMe0pkNmaeIbY_tMr6P_OASzwnJgl9SrsdGbxSRPK7muffDc5jE33N42WMYdAIACSE 
+method: POST 
+data: "{\"button\":[{\"name\":\"\u5546\u57ce1\",\"type\":\"view\",\"url\":\"http:\\\/\\\/www.yiiweixin.com\\\/m\\\/\"},{\"name\":\"\u62112\",\"type\":\"view\",\"url\":\"http:\\\/\\\/www.yiiweixin.com\\\/m\\\/user\\\/index\"}]}" 
+result: {"errcode":44002,"errmsg":"empty post data hint: [auLO_0859vr22]"} 
+errorno: 0 error:  
+2017-10-25 18:12:40 [ time:1.6340930461884 ] url: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=MNcyeXAeqbrJm1vlstheF2uRxvqRAs6B-ZmiUspclFG4ADgQwVCTAyLlZeB_DNLRxDmUtQ6fxMe0pkNmaeIbY_tMr6P_OASzwnJgl9SrsdGbxSRPK7muffDc5jE33N42WMYdAIACSE 
+method: post 
+data: "{\"button\":[{\"name\":\"\u5546\u57ce1\",\"type\":\"view\",\"url\":\"http:\\\/\\\/www.yiiweixin.com\\\/m\\\/\"},{\"name\":\"\u62112\",\"type\":\"view\",\"url\":\"http:\\\/\\\/www.yiiweixin.com\\\/m\\\/user\\\/index\"}]}" 
+result: {"errcode":0,"errmsg":"ok"} 
+errorno: 0 error:  
+2017-10-25 18:29:46 [ time:1.5930910110474 ] url: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=MNcyeXAeqbrJm1vlstheF2uRxvqRAs6B-ZmiUspclFG4ADgQwVCTAyLlZeB_DNLRxDmUtQ6fxMe0pkNmaeIbY_tMr6P_OASzwnJgl9SrsdGbxSRPK7muffDc5jE33N42WMYdAIACSE 
+method: post 
+data: "{\"button\":[{\"name\":\"\u5546\u57ce1\",\"type\":\"view\",\"url\":\"https:\\\/\\\/www.baidu.com\"},{\"name\":\"\u62112\",\"type\":\"view\",\"url\":\"http:\\\/\\\/weixin_testxpx.tunnel.echomod.cn\\\/m\\\/user\\\/index\"}]}" 
+result: {"errcode":0,"errmsg":"ok"} 
+errorno: 0 error:  
+2017-10-25 18:32:25 [ time:0.50302910804749 ] url: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=MNcyeXAeqbrJm1vlstheF2uRxvqRAs6B-ZmiUspclFG4ADgQwVCTAyLlZeB_DNLRxDmUtQ6fxMe0pkNmaeIbY_tMr6P_OASzwnJgl9SrsdGbxSRPK7muffDc5jE33N42WMYdAIACSE 
+method: post 
+data: "{\"button\":[{\"name\":\"\u5546\u57ce1\",\"type\":\"view\",\"url\":\"http:\\\/\\\/weixin_testxpx.tunnel.echomod.cn\\\/m\\\/\"},{\"name\":\"\u62112\",\"type\":\"view\",\"url\":\"http:\\\/\\\/weixin_testxpx.tunnel.echomod.cn\\\/m\\\/user\\\/index\"}]}" 
+result: {"errcode":0,"errmsg":"ok"} 
+errorno: 0 error:  
+2017-10-25 18:33:44 [ time:0.51102900505066 ] url: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=MNcyeXAeqbrJm1vlstheF2uRxvqRAs6B-ZmiUspclFG4ADgQwVCTAyLlZeB_DNLRxDmUtQ6fxMe0pkNmaeIbY_tMr6P_OASzwnJgl9SrsdGbxSRPK7muffDc5jE33N42WMYdAIACSE 
+method: post 
+data: "{\"button\":[{\"name\":\"\u5546\u57ce3\",\"type\":\"view\",\"url\":\"http:\\\/\\\/weixin_testxpx.tunnel.echomod.cn\\\/m\\\/\"},{\"name\":\"\u62112\",\"type\":\"view\",\"url\":\"http:\\\/\\\/weixin_testxpx.tunnel.echomod.cn\\\/m\\\/user\\\/index\"}]}" 
+result: {"errcode":0,"errmsg":"ok"} 
+errorno: 0 error:  
+2017-10-25 18:34:50 [ time:0.47402715682983 ] url: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=MNcyeXAeqbrJm1vlstheF2uRxvqRAs6B-ZmiUspclFG4ADgQwVCTAyLlZeB_DNLRxDmUtQ6fxMe0pkNmaeIbY_tMr6P_OASzwnJgl9SrsdGbxSRPK7muffDc5jE33N42WMYdAIACSE 
+method: post 
+data: "{\"button\":[{\"name\":\"\u5546\u57ce3\",\"type\":\"view\",\"url\":\"http:\\\/\\\/www.xupengxiangvip.com\"},{\"name\":\"\u62112\",\"type\":\"view\",\"url\":\"http:\\\/\\\/weixin_testxpx.tunnel.echomod.cn\\\/m\\\/user\\\/index\"}]}" 
+result: {"errcode":0,"errmsg":"ok"} 
+errorno: 0 error:  
+2017-10-28 18:21:37 [ time:2.33913397789 ] url: https://sapi.k780.com/?app=sms.send&tempid=51221&param=usernm=17601637638&code=30912&phone=17601637638&appkey=22516&sign=f5c57e1ba28a99e3a30b08e754ac05d1&format=json 
+method: get 
+data: [] 
+result: {"success":"1","result":{"status":"OK","phone":"17601637638","qty":"1"}} 
+errorno: 0 error:  
+2017-10-28 18:31:31 [ time:1.5470888614655 ] url: https://sapi.k780.com/?app=sms.send&tempid=51221&param=usernm=17601637638&code=59183&phone=17601637638&appkey=22516&sign=f5c57e1ba28a99e3a30b08e754ac05d1&format=json 
+method: get 
+data: [] 
+result: {"success":"0","msgid":"1040053","msg":"模板不存在"} 
+errorno: 0 error:  
+2017-10-28 18:48:32 [ time:1.7540998458862 ] url: https://sapi.k780.com/?app=sms.replace_template&tempid=1&content=尊敬的17601637638 您的验证码是96728 【xpx】&appkey=22516&sign=f5c57e1ba28a99e3a30b08e754ac05d1 
+method: get 
+data: [] 
+result: {"success":"0","msgid":"1040053","msg":"模板不存在"} 
+errorno: 0 error:  
+2017-10-28 18:48:33 [ time:0.84004783630371 ] url: https://sapi.k780.com/?app=sms.send&tempid=51221&param=usernm=17601637638&code=96728&phone=17601637638&appkey=22516&sign=f5c57e1ba28a99e3a30b08e754ac05d1&format=json 
+method: get 
+data: [] 
+result: {"success":"0","msgid":"1040053","msg":"模板不存在"} 
+errorno: 0 error:  
+2017-10-28 18:53:25 [ time:0.90005111694336 ] url: https://sapi.k780.com/?app=sms.replace_template&tempid=51222&content=尊敬的17601637638 您的验证码是45315 【xpx】&appkey=22516&sign=f5c57e1ba28a99e3a30b08e754ac05d1 
+method: get 
+data: [] 
+result: {"success":"1","result":{"tempid":"51222","content":"尊敬的用户，您本次的验证码是{code}【诺派科技】","content_tmp":"尊敬的17601637638 您的验证码是45315 【xpx】","mk":"0","upddate":"2017-10-28 18:53:17"}} 
+errorno: 0 error:  
+2017-10-28 18:53:26 [ time:0.87505006790161 ] url: https://sapi.k780.com/?app=sms.send&tempid=51222&param=usernm=17601637638&code=45315&phone=17601637638&appkey=22516&sign=f5c57e1ba28a99e3a30b08e754ac05d1&format=json 
+method: get 
+data: [] 
+result: {"success":"1","result":{"status":"OK","phone":"17601637638","qty":"1"}} 
+errorno: 0 error:  
+2017-10-28 19:02:10 [ time:1.7581000328064 ] url: https://sapi.k780.com/?app=sms.send&tempid=51223&param=17601637638%3Dadmin%26code%3D21409&phone=手机号码&appkey=22516&sign=f5c57e1ba28a99e3a30b08e754ac05d1 
+method: get 
+data: [] 
+result: {"success":"0","msgid":"1000801","msg":"手机号码不正确"} 
+errorno: 0 error:  
+2017-10-28 19:03:28 [ time:1.4640829563141 ] url: https://sapi.k780.com/?app=sms.send&tempid=51223&param=17601637638%3Dadmin%26code%3D74841&phone=17601637638&appkey=22516&sign=f5c57e1ba28a99e3a30b08e754ac05d1 
+method: get 
+data: [] 
+result: {"success":"1","result":{"status":"OK","phone":"17601637638","qty":"1"}} 
+errorno: 0 error:  
+2017-10-28 19:06:55 [ time:3.9172239303589 ] url: https://sapi.k780.com/?app=sms.send&tempid=51223&param=usernm%3D17601637638%26code%3D10425&phone=17601637638&appkey=22516&sign=f5c57e1ba28a99e3a30b08e754ac05d1 
+method: get 
+data: [] 
+result: {"success":"1","result":{"status":"OK","phone":"17601637638","qty":"1"}} 
+errorno: 0 error:  
+2017-10-28 19:08:18 [ time:0.85904884338379 ] url: https://sapi.k780.com/?app=sms.send&tempid=51223&param=usernm%3D{徐鹏祥先生}%26code%3D44324&phone=17601637638&appkey=22516&sign=f5c57e1ba28a99e3a30b08e754ac05d1 
+method: get 
+data: [] 
+result: {"success":"1","result":{"status":"OK","phone":"17601637638","qty":"1"}} 
+errorno: 0 error:  
