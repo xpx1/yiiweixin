@@ -52,7 +52,7 @@ class UserController extends BaseController
 
         if (!$member_info) {
             if (Member::findOne(['mobile' => $mobile])) {
-                $this->renderJSON([], "手机号码已注册，请直接使用手机号码登录~~", -1);
+               return $this->renderJSON([], "手机号码已注册，请直接使用手机号码登录~~", -1);
             }
 
             $model_member = new Member();
@@ -86,8 +86,11 @@ class UserController extends BaseController
                 $model_bind->save(0);
             }
         }
+        if( UtilService::isWechat() && $member_info['nickname']  == $member_info['mobile'] ){
+           return $this->renderJSON([ 'url' => UrlService::buildMUrl( "/oauth/login",[ 'scope' => 'snsapi_userinfo' ] )  ],"绑定成功~~");
+        }
         //todo设置登录态
-//        $this->setLoginStatus( $member_info );  即保存cookie状态
+        $this->setLoginStatus( $member_info );  //即保存cookie状态
         return $this->renderJSON([ 'url' => UrlService::buildMUrl( "/default/index" )  ],"绑定成功~~");
 
     }

@@ -88,3 +88,303 @@ method: get
 data: [] 
 result: {"success":"1","result":{"status":"OK","phone":"17601637638","qty":"1"}} 
 errorno: 0 error:  
+2017-11-02 09:45:12 [ time:0.13849091529846 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=081U0YPI1qN0X80iRjQI19WTPI1U0YP0&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: FmgjiA0912th19 ]"} 
+errorno: 0 error:  
+2017-11-02 09:47:20 [ time:0.17837595939636 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=001zBOMj2d62GI0SliNj2XfRMj2zBOMO&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"yB7diVIxqWM9D0nwXSVgMFsJJkcMDOLQ0H8xcN-Zr0LymAgeYrdTdTJANQVe-q8GqkDBdiH1PYyveecMK6uMSQ","expires_in":7200,"refresh_token":"Eo5TxCCqkYToS3nKu9CWqTTVsxkpD_LfwrCim-O5jrgRn1k1jGbH71IoTibWmwDkFXyahSMsNI5oBhVYc8Z2Cw","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_base"} 
+errorno: 0 error:  
+2017-11-02 09:48:08 [ time:0.18802285194397 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=0711sCAN1MrvM513dMzN1NyKAN11sCAk&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"QdlkYs2lBxBweRxxbu2ce6dbCY3qavregC2TpSHf00LyIYG7qa69YALuSgdRjqyDxtZgPVAGPf4eeDhTkfdAoQ","expires_in":7200,"refresh_token":"ZHvm5joVfjr7torJ31nGEl0X5_SIGQV96daeQ2JBWtGtQxN1j8qNtcF4rj6ffzfB_1YYgrf_Pq4Gfwz63uVQhw","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_base"} 
+errorno: 0 error:  
+2017-11-03 04:28:39 [ time:0.17869186401367 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=061MB6Bn1PVY6l0ORJAn1b33Bn1MB6Bj&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"w-fBkf3oXdR5Rhq5FV_K5u0wTPU-YlCBxV4aoT53VNTpY-K3sIn82xt1lZBtBnUFN6oqkTGa3QtOJpam528rEg","expires_in":7200,"refresh_token":"GGLHpbWOYNLKVYadDNuKaUQCfXP8BGV_KRWuk-_sjgNsGurg7C5k3FSjx7cqJoKbXsrmp-I-osaHBMSZ_RS8YQ","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 04:28:39 [ time:0.17226600646973 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=061MB6Bn1PVY6l0ORJAn1b33Bn1MB6Bj&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: PPrVOa0319th54 ]"} 
+errorno: 0 error:  
+2017-11-03 05:05:24 [ time:0.17910003662109 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=081W8DGS0VGa9W1KocES0Y0KGS0W8DGj&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"14tKkcJhapUrqCO_BGXsQ-WzXmlO8vJ2mWN9QAIaFkPPVGokovtu9bdqdYPpIuFO4QGlSqLRowK9iWYtIgahRQ","expires_in":7200,"refresh_token":"lQnddRaRwdNTWnEWEXqbiMfggf6i6qV9o9OEOCNKnGigX4UVtBdsYiz8LBiEO6scfHWpceioQDstgMBNF8cdJA","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 05:05:24 [ time:0.1363480091095 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=081W8DGS0VGa9W1KocES0Y0KGS0W8DGj&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: P2.7Ba0524th31 ]"} 
+errorno: 0 error:  
+2017-11-03 05:08:52 [ time:0.17454099655151 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=011wCflK1gEZr704r7lK1PL8lK1wCflU&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"YVAjOsHxw5bIWsCyccJyjQVyscGOb34aidRLIIMmi2xVLqqNo0fDn6vxQxj31ZVYyIVo48mrK8556J5X9OHfYg","expires_in":7200,"refresh_token":"Yas2TSDB-F4D5iUYArwQvVerJ2fw9hc5O5zmxRio0RSepvPcs3FbpS05TLIrDlE7oieURH7muiPYBoE7JrYcfA","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 05:08:52 [ time:0.15461707115173 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=011wCflK1gEZr704r7lK1PL8lK1wCflU&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: 7Gnm.a0732th21 ]"} 
+errorno: 0 error:  
+2017-11-03 05:10:07 [ time:0.17935514450073 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=071tEXy312m2jL1k8ky31XzUy31tEXyf&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"RsB9y2udT-EVyHafZZg5-UuxtZbskubk1o2Q6IF77iUB3jx31eGAySewADOUYwSnxG8VzmD28sYxli8mHn14_g","expires_in":7200,"refresh_token":"C2u3Tk5A06KTzxoU4D70c6GgTeZoXjiBTsEGVbmeDb6MBjIYe3fRq_Hy4jVJu6WYpSDiLz6qfuIUaclJXXlJ1A","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 05:10:07 [ time:0.14375019073486 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=071tEXy312m2jL1k8ky31XzUy31tEXyf&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: 4SGemA0807th21 ]"} 
+errorno: 0 error:  
+2017-11-03 05:41:13 [ time:0.16893100738525 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=021oNoQa18Rgkt0uKqPa1NKOQa1oNoQ4&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"M8yLPga8gsHvzvcx-yIcpl3noansykyA15jwXYwsYZ_swzVS3FPjLdOo5b5bd9UBlA2yDsASGdm2ymm0EIpEKw","expires_in":7200,"refresh_token":"UP3G_zAsVbpHZeKeif2538VGeeL_XtsB35Of_SPBCYtP5_qPpP2BJcW2WYL78aLUq9nEZi7iwVupxn9q9qn4DQ","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 05:41:13 [ time:0.14630794525146 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=021oNoQa18Rgkt0uKqPa1NKOQa1oNoQ4&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: Kb8MBA0673th31 ]"} 
+errorno: 0 error:  
+2017-11-03 05:53:03 [ time:0.58764600753784 ] url: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96 
+method: get 
+data: [] 
+result: {"access_token":"sEv2T6fVabGUjnqiHA8DUTgMUetAYqYpgBRHHO5fvXzoJocL7-m9iWgxVwvoMabAVGJXXHQB9837zcfdhLBPgUd5BkMgAevelFFRIf6DBADIR0yo3NM5-sxqYGLGiG0zOXCeADATCH","expires_in":7200} 
+errorno: 0 error:  
+2017-11-03 05:53:04 [ time:0.63848519325256 ] url: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=sEv2T6fVabGUjnqiHA8DUTgMUetAYqYpgBRHHO5fvXzoJocL7-m9iWgxVwvoMabAVGJXXHQB9837zcfdhLBPgUd5BkMgAevelFFRIf6DBADIR0yo3NM5-sxqYGLGiG0zOXCeADATCH 
+method: post 
+data: "{\"button\":[{\"name\":\"\u5546\u57ce3\",\"type\":\"view\",\"url\":\"http:\\\/\\\/www.xupengxiangvip.com\"},{\"name\":\"\u62112\",\"type\":\"view\",\"url\":\"http:\\\/\\\/www.xupengxiangvip.com\\\/m\\\/user\\\/index\"}]}" 
+result: {"errcode":0,"errmsg":"ok"} 
+errorno: 0 error:  
+2017-11-03 06:01:47 [ time:0.17470192909241 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=061lHtPf0k4Rqx1Vx2Qf0dcgPf0lHtPH&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"N3T8W9oojtFZLGlZCShJIKXSopNz2bCxiWXMuWYqX9055MOBUtxCFHQB-A9JVZrgQfa0gy6LS9LVcDuQq3RJfQ","expires_in":7200,"refresh_token":"2UTxbkFP2JRzeilSWdg-LggW9-z89XEPws6Vd7gGemSC6TvPJF38dU7U2-a2kIFoElShS-ysOf6Uzx0ulinx6Q","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 06:01:48 [ time:0.15328097343445 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=061lHtPf0k4Rqx1Vx2Qf0dcgPf0lHtPH&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: zcGRMA0908th54 ]"} 
+errorno: 0 error:  
+2017-11-03 06:17:08 [ time:0.16793704032898 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=071xYXhr1tekvq0jLVhr1fHdir1xYXhG&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"JrOLDqRziT1RiEi4g-njY2FQ5cQt28WWvNweoBAotMxDYhos9V5IftYDDV6LMbaaxek-oDdlETJVclD_elu8Tg","expires_in":7200,"refresh_token":"YVAjOsHxw5bIWsCyccJyjUglV6uD-fpjS2DKkMCRWRrZtiPXbnIBmrD2UUkr0l4gO9H6cXc0t92AnAF-zVHESw","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 06:17:11 [ time:0.14065599441528 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=071xYXhr1tekvq0jLVhr1fHdir1xYXhG&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: Rca9FA0831th44 ]"} 
+errorno: 0 error:  
+2017-11-03 06:29:44 [ time:0.17154693603516 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=061eopVZ0bTsy22rg1UZ0KLlVZ0eopVe&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"c4r0wmWgd3aPUPgVBzTe7oYJJjPc52I5LGtu0CmZjR7sInG3UVOiLYVMWx8fh8vysHxCqau7pq5FxPWOJOOedQ","expires_in":7200,"refresh_token":"BGzZDnsTy3y9HILQk9DEVws-b1ksvP80XY5OoLKaX3uH_GOrXVa5NZMbgsx658Cnnlxw_0EFxhsbNuLSWOxlLA","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 06:29:47 [ time:0.16717481613159 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=061eopVZ0bTsy22rg1UZ0KLlVZ0eopVe&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: mQwJsa0587th27 ]"} 
+errorno: 0 error:  
+2017-11-03 06:32:00 [ time:0.18340182304382 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=0718cs7l12rB3j0VRP9l1BOs7l18cs7u&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"ZHvm5joVfjr7torJ31nGErKf5qqLuwBy3L4BYbazdFrBQ719LEhZPGl4ujdYp3mhqfpwc9DhUQsy-HI7sqUAdA","expires_in":7200,"refresh_token":"iwKsK9CKIF5Sto1ybYlmjYaoXErrA6XPjS3JbrMEqeXBhILY0Q4lTF1aks__37S-eJ6oTdr7TUxd2AKtse8LdQ","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 06:32:01 [ time:0.1407151222229 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=0718cs7l12rB3j0VRP9l1BOs7l18cs7u&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: u_lKba0721th50 ]"} 
+errorno: 0 error:  
+2017-11-03 06:36:50 [ time:0.16557693481445 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=011l6aJd1IKe0v0P6cMd1RDaJd1l6aJr&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"DyySuy-eQlJSb3jnCoehw2maDuvmLqAEr0cBE-P_f9xkvq191MMQEd3nxJro4hJFf94z4G2F_6T2bCUP9lfQoQ","expires_in":7200,"refresh_token":"13qLEMToJGDQyJ9sET4hnYSqShNx13_3CYMcvcCeLPDnlR_6VBTGJnNrKxDr3QiIuQm-RZOKdJEnlGLp8nsNFw","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 06:36:51 [ time:0.15037512779236 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=011l6aJd1IKe0v0P6cMd1RDaJd1l6aJr&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: P.GK2a0011th21 ]"} 
+errorno: 0 error:  
+2017-11-03 06:39:15 [ time:0.16327095031738 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=061BpXq9029lLu1ADEp90BpFq90BpXqy&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"JNJvXJR9qjYsthBtV25K5i02dsEzjGmNOsNNNlJ6vKE-vE4LD4soM9foYIwwdM7A1SXrPp2UjoVAv1SRKL_7yg","expires_in":7200,"refresh_token":"QbNg984yb69--Uo3FwMJ1QfmyuglvWbVo_TObK31pvjuccV3mP83o2pMatbP-7I86WplJDvalf-fF9HPYtDPoA","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 06:39:16 [ time:0.1687650680542 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=061BpXq9029lLu1ADEp90BpFq90BpXqy&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: Fkbk30155th21 ]"} 
+errorno: 0 error:  
+2017-11-03 06:41:27 [ time:0.16283011436462 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=001FeXVK06A8V32z7GUK0qH8WK0FeXVc&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"mSMFLhMmuS8puexLCrE1zAlbnlsGLFYsRZ4AJvJUUhzbrOoWWRZ5VXtsd5i5-twkoPObav-lITC4s7R9j_fsvw","expires_in":7200,"refresh_token":"H-WyW8R5TVxRzZi3LAK9SUFR3IMYOPmGCjSjt1Z5ceti9msUdg6SArF1IDe58xnpQdpbLEQOm54lBNk5yw4jUw","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 06:41:28 [ time:0.16173982620239 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=001FeXVK06A8V32z7GUK0qH8WK0FeXVc&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: 3mkqPA0288th44 ]"} 
+errorno: 0 error:  
+2017-11-03 06:42:32 [ time:0.14598417282104 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=001FeXVK06A8V32z7GUK0qH8WK0FeXVc&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: Ouu0352th48 ]"} 
+errorno: 0 error:  
+2017-11-03 06:46:22 [ time:0.17806386947632 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=081qwvOd16lzUu0ktIQd1jcaOd1qwvOG&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"uhmO_NBTUsloeb5cIJjSqUB3WIIqLI3tqyVZRT73oiodoQPs5hjCk3xIC4Qit8PaLoziMwVt2LfEwIGtlHibmg","expires_in":7200,"refresh_token":"Eo5TxCCqkYToS3nKu9CWqXdCTGk-5167X1_iIbAz_xYge9rJm0rJGCgVWSFyCJl_mDBQ-CpnUQbQwrpwaSHnrA","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 06:46:24 [ time:0.15541481971741 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=081qwvOd16lzUu0ktIQd1jcaOd1qwvOG&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: vheS9a0584th40 ]"} 
+errorno: 0 error:  
+2017-11-03 06:46:36 [ time:0.17810702323914 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=081qwvOd16lzUu0ktIQd1jcaOd1qwvOG&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: yohtLA0596th56 ]"} 
+errorno: 0 error:  
+2017-11-03 06:47:50 [ time:0.1739821434021 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=081qwvOd16lzUu0ktIQd1jcaOd1qwvOG&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: 2LPh6a0670th40 ]"} 
+errorno: 0 error:  
+2017-11-03 06:49:46 [ time:0.17844700813293 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=011cWX1P0HN7U82FD64P09862P0cWX1n&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"RFIu-YvexZGGhVk69wj0ELUsXZTzfQxeHlbgRTYq7a247shn1sohdfh92-T61A47ASxlo9cvauJMedoJdNzpyA","expires_in":7200,"refresh_token":"wJP0C_V7jU7c2NXuKlBTk6Z5Y8BLBfBotjxXqFlSYFrXGxfIMWEnU266JEO7mJ-zAAXqxQcBOC_kgmlGGfe6kA","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 06:49:46 [ time:0.17068195343018 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=011cWX1P0HN7U82FD64P09862P0cWX1n&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: TLs6QA0786th50 ]"} 
+errorno: 0 error:  
+2017-11-03 06:50:12 [ time:0.14442586898804 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=011cWX1P0HN7U82FD64P09862P0cWX1n&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: 7o0ViA0812th27 ]"} 
+errorno: 0 error:  
+2017-11-03 06:52:29 [ time:0.16065406799316 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=081QEen229Ya601VHEn223Zin22QEenO&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"_Z01s23tQpO7k2sX-DvRB1BajFyts3otczUh2dwKKK4lO5Fq-v0SZaM8LlFW66UFXkawmkSdjATht5RtoNOG0g","expires_in":7200,"refresh_token":"ZHvm5joVfjr7torJ31nGEvmUu3DTj3pQNwoDhHJzrkLiYWa35TgTHlTLGcZe0fa3QcQUOaYuB--Mph5fknKwZw","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 06:52:30 [ time:0.15259909629822 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=081QEen229Ya601VHEn223Zin22QEenO&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: 90SKna0950th54 ]"} 
+errorno: 0 error:  
+2017-11-03 06:55:27 [ time:0.16127014160156 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=071aPzXh2xBuZF0iimXh2fjoXh2aPzXR&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"zTx5xITWwoTnexRnKPFT6viDhSdQ3VIdr3Ko9TshfujTybNRAz_9QHEdLePZFFyguUHbvou6X2R2Aug-oed3ug","expires_in":7200,"refresh_token":"GGLHpbWOYNLKVYadDNuKaSkOtxQr62SCOWjV2-s28PQrBD3pAAzScI2GoXpaDNyU7Vys1tqpOO0K52i2H8PaOA","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 06:55:27 [ time:0.14986705780029 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=071aPzXh2xBuZF0iimXh2fjoXh2aPzXR&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: t26joa0127th40 ]"} 
+errorno: 0 error:  
+2017-11-03 06:57:04 [ time:0.17311596870422 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=001Ivj2F1iaNH304bq1F1T7b2F1Ivj2x&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"uhP4gAh551ZVAbIWmspzKHA1FOYPE1OAoUVOANmy7Y9iTZFXJ3m3zCTJZwXYnNtbfDeX02xD5FKp1faFuufhvQ","expires_in":7200,"refresh_token":"2mAXLIkhR68NlmY2BFS4t_GnpKN0xuh1eDI7YSKg-bhoXvXjIhF9_F-8a_CTYMnjX07ipjhMjUmTJJP3oP8h-A","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 06:57:04 [ time:0.14825105667114 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=001Ivj2F1iaNH304bq1F1T7b2F1Ivj2x&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: WOQTVa0224th48 ]"} 
+errorno: 0 error:  
+2017-11-03 06:57:07 [ time:0.18105411529541 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=021HPIR42Z3YZJ0Fe5P42jBFR42HPIRo&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"bA88Lc2NEvbvpUcqfVAYiiOi29MMqJX80kI0bTn_gmngw_g0B2y6ggq50T-ELjpvRPDG4gDPh53Vkf9SsnZaWA","expires_in":7200,"refresh_token":"mSMFLhMmuS8puexLCrE1zFj9bkho2IEJ49ZTBRJtqisaGSEfOJq9NhIMFX6zy1sOJXOrOC2T9qH4cTBBW7EY2g","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 06:57:07 [ time:0.1525559425354 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=021HPIR42Z3YZJ0Fe5P42jBFR42HPIRo&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: 4bEmeA0227th24 ]"} 
+errorno: 0 error:  
+2017-11-03 06:58:19 [ time:0.17949104309082 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=071t9y2u03zfGe1iwJ3u0LCp2u0t9y24&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"IE-WfeX2K5awXXQ5fdlbCPqqldRT-XyeGCm7FChmCQsqbBZcDDvTUJHTU-eftYcC2qprvKLHk71JwoJ8MAGvpw","expires_in":7200,"refresh_token":"i3b8fKDlet0m-qOfUW-I8ZAo0QCqUeS8cbOBEBd2gsZ_VhY34BZ2o-zUuOW04OUFBVTvvdY5xXdfp7mxFF11zw","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 06:58:19 [ time:0.17191815376282 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=071t9y2u03zfGe1iwJ3u0LCp2u0t9y24&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: gUj14a0299th31 ]"} 
+errorno: 0 error:  
+2017-11-03 07:00:25 [ time:0.17604494094849 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=0015BcRG0cBw5h2wkNQG00DqRG05BcRE&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"A-dWWHy6fWoDPcKcIqR2Ph61J7ltD-uFpCpwc3rBDL8rD4dRbKsGKFXkIqYLHIC6YJsyPt-kjkpxLizAD0VSow","expires_in":7200,"refresh_token":"-89kbtTeEiKqYGXxXUGr6sUzzXc_t2UKAl_fcNem0qsuQIYQ1yThjHzjRkGgKVPp4UQCHR2HiiSxaqdpm1rceA","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 07:00:26 [ time:0.14289593696594 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=0015BcRG0cBw5h2wkNQG00DqRG05BcRE&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: OslTPa0426th50 ]"} 
+errorno: 0 error:  
+2017-11-03 07:01:41 [ time:0.20172810554504 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=011ttPlE0ZxK2f28v2lE0eANlE0ttPlq&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"YBB8BEbkyJAVmw4UsuGGk8PlVlMeA41cLQAaPSpRT8BHeNy-MVpSCKhKPz173Cp0XDeP79l0h4Tx9zMIjOC4hQ","expires_in":7200,"refresh_token":"RFIu-YvexZGGhVk69wj0EPVVCRfCGoRwd5pljp0C9IKCEHH5CdZDMRkHsZI88ANijmwgewXh-pbhaC_2HAEbgg","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 07:01:41 [ time:0.15398478507996 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=011ttPlE0ZxK2f28v2lE0eANlE0ttPlq&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: 4gLQoA0501th44 ]"} 
+errorno: 0 error:  
+2017-11-03 07:02:53 [ time:0.16988015174866 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=071NX6JZ1K2fcY0CqXGZ11D1JZ1NX6JY&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"A-dWWHy6fWoDPcKcIqR2PgbD08nUEbMJQ-ccxfKdTdsb8ZO9MKpg6anmaNW9ZaKed2344RZoHqdScfStk0WCSQ","expires_in":7200,"refresh_token":"4bNbsLvk8duJU6IhRPH9cezLeXVFaGkrYrmMiUGX4YqmmsnDTiIFMkMLSEL_GDsmTpYGx2T3aCo46MEAHFzo4w","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_userinfo"} 
+errorno: 0 error:  
+2017-11-03 07:02:53 [ time:0.18205189704895 ] url: https://api.weixin.qq.com/sns/userinfo?access_token=A-dWWHy6fWoDPcKcIqR2PgbD08nUEbMJQ-ccxfKdTdsb8ZO9MKpg6anmaNW9ZaKed2344RZoHqdScfStk0WCSQ&openid=orMPk0TRBwCZo9mK8divnaFGbjWc&lang=zh_CN 
+method: get 
+data: [] 
+result: {"openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","nickname":"........","sex":1,"language":"zh_CN","city":"南昌","province":"江西","country":"中国","headimgurl":"http:\/\/wx.qlogo.cn\/mmopen\/vi_32\/knzPCK6vTuzMI4G2INT2Gdxvqo5m67bF3okPVt2sX6zlPBFiaenQKZvTcW2moV9B1CyTyUJliczGIhaV7YB6CiaAQ\/0","privilege":[]} 
+errorno: 0 error:  
+2017-11-03 07:02:54 [ time:0.15854001045227 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=071NX6JZ1K2fcY0CqXGZ11D1JZ1NX6JY&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: UODiNA0574th41 ]"} 
+errorno: 0 error:  
+2017-11-03 14:43:39 [ time:0.17857694625854 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=081aTw1F0bUhUi2Cv54F0fvd1F0aTw1A&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"Yas2TSDB-F4D5iUYArwQvWvwRY9D3fEjxLg8EaHTi0qocZFvwTsEZIBM-taQR80GKaL0qImTwPtF7J2c6qAyFA","expires_in":7200,"refresh_token":"pZrPr9KOu-noT2hLXkxKYQhi7ea0uTkMLhx8pYvBWl2RqbV3ayq6y2vee9nQmOZdISxVTZtnub1ozrIgq8CCow","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_base"} 
+errorno: 0 error:  
+2017-11-03 14:43:40 [ time:0.16311287879944 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=071mbnwM0rEhR62pkTuM0DwCwM0mbnwx&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"RsB9y2udT-EVyHafZZg5-YVrX9ggG4OlmPyQ_saWMg1An6uQK7oyAEFranQrFSDiqbsyGN_e04JvKsxajSmvFw","expires_in":7200,"refresh_token":"gB1XIXKSA2p-wstM7BfgDE-XpZHkfMA4R9CQMCk2QdJXpYZUi2DDso0MLzOFgBtUSml39ptfPWA0QPAk-9IQNw","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_base"} 
+errorno: 0 error:  
+2017-11-05 07:33:29 [ time:0.21869301795959 ] url: https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96 
+method: get 
+data: [] 
+result: {"access_token":"5LjO_CBp061ZPWpDj_2K-OcNRI8w55MfP8_1Jo-XXFgCzaPuxYpUT5N5dOm8K_M9n2IF87_Qv9DWdJs9CmFQA9vQxVFcvjSUHRFZPdmGg4EGeB78RamwcnIHhtdRvzUFHVXhAAAXLN","expires_in":7200} 
+errorno: 0 error:  
+2017-11-05 07:33:30 [ time:0.61154198646545 ] url: https://api.weixin.qq.com/cgi-bin/menu/create?access_token=5LjO_CBp061ZPWpDj_2K-OcNRI8w55MfP8_1Jo-XXFgCzaPuxYpUT5N5dOm8K_M9n2IF87_Qv9DWdJs9CmFQA9vQxVFcvjSUHRFZPdmGg4EGeB78RamwcnIHhtdRvzUFHVXhAAAXLN 
+method: post 
+data: "{\"button\":[{\"name\":\"\u5546\u57ce3\",\"type\":\"view\",\"url\":\"http:\\\/\\\/www.xupengxiangvip.com\\\/m\\\/\"},{\"name\":\"\u62112\",\"type\":\"view\",\"url\":\"http:\\\/\\\/www.xupengxiangvip.com\\\/m\\\/user\\\/index\"}]}" 
+result: {"errcode":0,"errmsg":"ok"} 
+errorno: 0 error:  
+2017-11-05 07:36:26 [ time:0.17485189437866 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=001wo6ER0WIKPa2t32DR0KrPDR0wo6EY&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"access_token":"JrOLDqRziT1RiEi4g-njY4ZxLg6kPJnhEg7vIu0_2TmTFiRpyvrFCJb8vXBxxv_fC7ryZ3f0YjzXIaEj8u_BMGU8CP6CVhlXFWHP21EzKb4","expires_in":7200,"refresh_token":"5AoVcf856_MpKjjHz4gP-BKa1ByCSdmldJhczTGSr7BzF44i8aMCeiddV6IiPrIeaOYQ9y4QR_0ZNzv62DUFISmHor_JuuGJH2a3ynvyCcI","openid":"orMPk0TRBwCZo9mK8divnaFGbjWc","scope":"snsapi_base"} 
+errorno: 0 error:  
+2017-11-05 07:36:26 [ time:0.14279508590698 ] url: https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxf703ccc61698d99a&secret=255290819bd28972e3b2379073c30d96&code=001wo6ER0WIKPa2t32DR0KrPDR0wo6EY&grant_type=authorization_code 
+method: get 
+data: [] 
+result: {"errcode":40163,"errmsg":"code been used, hints: [ req_id: xihlXa0386th44 ]"} 
+errorno: 0 error:  

@@ -34,4 +34,11 @@ class UtilService
         $vendor_path = \Yii::$app->vendorPath; //表示的是 vendor文件夹的绝对路径
         return dirname($vendor_path);
     }
+    public static  function isWechat(){
+        $ug= isset($_SERVER['HTTP_USER_AGENT'])?$_SERVER['HTTP_USER_AGENT']:'';
+        if( stripos($ug,'micromessenger') !== false ){
+            return true;
+        }
+        return false;
+    }
 }

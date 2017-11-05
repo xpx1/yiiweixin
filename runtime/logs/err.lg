@@ -298,3 +298,8 @@
 2017-10-30 19:52:31 [127.0.0.1][-][-][error][application] Page not found. [file:D:\website\weixin_test\vendor\yiisoft\yii2\web\Application.php][line:112][code:0][url:/m/user/catbind][POST_DATA:]
 2017-11-01 15:06:17 [192.168.1.110][-][-][error][application] Page not found. [file:D:\website\weixin_test\vendor\yiisoft\yii2\web\Application.php][line:112][code:0][url:/soft/tortoisegit.zip][POST_DATA:]
 2017-11-01 15:06:20 [192.168.1.110][-][-][error][application] Page not found. [file:D:\website\weixin_test\vendor\yiisoft\yii2\web\Application.php][line:112][code:0][url:/soft/tortoisegit.zip][POST_DATA:]
+2017-11-05 07:31:34 [112.10.231.28][-][-][error][application] Page not found. [file:/phpstudy/www/weixin_test/vendor/yiisoft/yii2/web/Application.php][line:112][code:0][url:/m/weixin/menu][POST_DATA:]
+2017-11-05 07:31:58 [112.10.231.28][-][-][error][application] Page not found. [file:/phpstudy/www/weixin_test/vendor/yiisoft/yii2/web/Application.php][line:112][code:0][url:/m/weixin/menu/set][POST_DATA:]
+2017-11-05 10:26:05 [112.10.231.28][-][-][error][application] You are not allowed to access this page. [file:/phpstudy/www/weixin_test/vendor/yiisoft/yii2-gii/Module.php][line:112][code:0][url:/gii][POST_DATA:]
+2017-11-05 10:26:21 [112.10.231.28][-][-][error][application] Page not found. [file:/phpstudy/www/weixin_test/vendor/yiisoft/yii2/web/Application.php][line:112][code:0][url:/r=gii][POST_DATA:]
+2017-11-05 10:26:34 [112.10.231.28][-][-][error][application] You are not allowed to access this page. [file:/phpstudy/www/weixin_test/vendor/yiisoft/yii2-gii/Module.php][line:112][code:0][url:/gii][POST_DATA:]

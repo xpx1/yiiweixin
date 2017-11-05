@@ -15,7 +15,7 @@ class MenuController extends BaseWebController {
 				[
 					"name" => "商城3",
 					"type" => "view",
-					"url"  => "http://www.xupengxiangvip.com"
+					"url"  => UrlService::buildMUrl("/default/index")
 				],
 				[
 					"name" => "我2",

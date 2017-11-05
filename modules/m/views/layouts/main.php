@@ -29,7 +29,9 @@ $brand_name=$brand[0]['name'];
 <!-- 不同的部分结束 -->
 
 <div class="copyright clearfix">
-            <p class="name">欢迎您，郭威</p>
+    <?php if (isset($this->params['current_user'])): ?>
+            <p class="name">欢迎您，<?= UtilService::encode($this->params['current_user']['nickname']) ?></p>
+    <?php endif;?>
         <p class="copyright">由<a href="/" target="_blank">编程浪子</a>提供技术支持</p>
 </div>
 <div class="footer_fixed clearfix">
