@@ -1,37 +1,30 @@
-<!-- 以上引入公共布局部分 -->		
-<div class="row  border-bottom">
-	<div class="col-lg-12">
-		<div class="tab_title">
-			<ul class="nav nav-pills">
-								<li  class="current"  >
-					<a href="/web/book/index">图书列表</a>
-				</li>
-								<li  >
-					<a href="/web/book/cat">分类列表</a>
-				</li>
-								<li  >
-					<a href="/web/book/images">图片资源</a>
-				</li>
-							</ul>
-		</div>
-	</div>
-</div>
+<!-- 以上引入公共布局部分 -->
+<?php
+use app\common\services\ConstantMapService;
+use \app\common\services\UrlService;
+use \app\common\services\UtilService;
+use \app\common\services\StaticService;
+StaticService::includeAppJsStatic( "/js/web/book/index.js",\app\assets\WebAsset::className() );
+?>
+<?php echo \Yii::$app->view->renderFile("@app/modules/web/views/common/tab_book.php", ['current' => 'book']); ?>
 <div class="row">
     <div class="col-lg-12">
         <form class="form-inline wrap_search">
             <div class="row  m-t p-w-m">
                 <div class="form-group">
                     <select name="status" class="form-control inline">
-                        <option value="-1">请选择状态</option>
-						                            <option value="1"  >正常</option>
-						                            <option value="0"  >已删除</option>
+               <option value="<?=ConstantMapService::$status_default?>">请选择状态</option>
+                                            <?php foreach ($status_mapping as $item =>$value): ?>
+						                            <option value="<?=$item?>"  ><?= $value ?></option>
+                                            <?php endforeach; ?>
 						                    </select>
                 </div>
                 <div class="form-group">
                     <select name="cat_id" class="form-control inline">
                         <option value="0">请选择分类</option>
-						                            <option value="2"  >互联网</option>
-						                            <option value="1"  >政治类</option>
+                        <?php foreach( $cat_mapping as $_cat_info ):?>
+                            <option value="<?=$_cat_info['id'];?>" <?php if( $search_conditions['cat_id']  == $_cat_info['id']):?> selected <?php endif;?> ><?=UtilService::encode( $_cat_info['name'] );?></option>
+                        <?php endforeach;?>
 						                    </select>
                 </div>
                 <div class="form-group">
@@ -67,92 +60,43 @@
             </tr>
             </thead>
             <tbody>
-							                    <tr>
-                        <td>Hadoop权威指南(第3版)</td>
-                        <td>互联网</td>
-                        <td>78.20</td>
-                        <td>130</td>
-                        <td>hadoop,大数据</td>
+            <?php if( $list ):?>
+                <?php foreach( $list as $_item ):?>
+                    <tr>
+                        <td><?= $_item['name'];?></td>
+                        <td><?= $_item['cat_name'] ;?></td>
+                        <td><?= $_item['price'] ;?></td>
+                        <td><?= $_item['stock'] ;?></td>
+                        <td><?= $_item['tags'];?></td>
                         <td>
-                            <a  href="/web/book/info?id=4">
+                            <a  href="<?=UrlService::buildWebUrl("/book/info",[ 'id' => $_item['id'] ] );?>">
                                 <i class="fa fa-eye fa-lg"></i>
                             </a>
-							                                <a class="m-l" href="/web/book/set?id=4">
+                            <?php if( $_item['status'] ):?>
+                                <a class="m-l" href="<?=UrlService::buildWebUrl("/book/set",[ 'id' => $_item['id'] ]);?>">
                                     <i class="fa fa-edit fa-lg"></i>
                                 </a>
 
-                                <a class="m-l remove" href="javascript:void(0);" data="4">
+                                <a class="m-l remove" href="<?=UrlService::buildNullUrl();?>" data="<?=$_item['id'];?>">
                                     <i class="fa fa-trash fa-lg"></i>
                                 </a>
-							                        </td>
+                            <?php else:?>
+                                <a class="m-l recover" href="<?=UrlService::buildNullUrl();?>" data="<?=$_item['id'];?>">
+                                    <i class="fa fa-rotate-left fa-lg"></i>
+                                </a>
+                            <?php endif;?>
+                        </td>
                     </tr>
-				                    <tr>
-                        <td>高性能MySQL（第3版）</td>
-                        <td>互联网</td>
-                        <td>101.10</td>
-                        <td>100</td>
-                        <td>mysql,index</td>
-                        <td>
-                            <a  href="/web/book/info?id=3">
-                                <i class="fa fa-eye fa-lg"></i>
-                            </a>
-							                                <a class="m-l" href="/web/book/set?id=3">
-                                    <i class="fa fa-edit fa-lg"></i>
-                                </a>
-
-                                <a class="m-l remove" href="javascript:void(0);" data="3">
-                                    <i class="fa fa-trash fa-lg"></i>
-                                </a>
-							                        </td>
-                    </tr>
-				                    <tr>
-                        <td>php开发教程</td>
-                        <td>互联网</td>
-                        <td>45.00</td>
-                        <td>92</td>
-                        <td>php</td>
-                        <td>
-                            <a  href="/web/book/info?id=2">
-                                <i class="fa fa-eye fa-lg"></i>
-                            </a>
-							                                <a class="m-l" href="/web/book/set?id=2">
-                                    <i class="fa fa-edit fa-lg"></i>
-                                </a>
-
-                                <a class="m-l remove" href="javascript:void(0);" data="2">
-                                    <i class="fa fa-trash fa-lg"></i>
-                                </a>
-							                        </td>
-                    </tr>
-				                    <tr>
-                        <td>浪潮之巅</td>
-                        <td>政治类</td>
-                        <td>88.88</td>
-                        <td>5</td>
-                        <td>浪潮,吴军</td>
-                        <td>
-                            <a  href="/web/book/info?id=1">
-                                <i class="fa fa-eye fa-lg"></i>
-                            </a>
-							                                <a class="m-l" href="/web/book/set?id=1">
-                                    <i class="fa fa-edit fa-lg"></i>
-                                </a>
-
-                                <a class="m-l remove" href="javascript:void(0);" data="1">
-                                    <i class="fa fa-trash fa-lg"></i>
-                                </a>
-							                        </td>
-                    </tr>
-							            </tbody>
+                <?php endforeach;?>
+            <?php else:?>
+                <tr><td colspan="6">暂无数据</td></tr>
+            <?php endif;?>
+				</tbody>
         </table>
-		<div class="row">
-	<div class="col-lg-12">
-		<span class="pagination_count" style="line-height: 40px;">共4条记录 | 每页50条</span>
-		<ul class="pagination pagination-lg pull-right" style="margin: 0 0 ;">
-										                    <li class="active"><a href="javascript:void(0);">1</a></li>
-                            					</ul>
-	</div>
-</div>
+        <?php echo \Yii::$app->view->renderFile("@app/modules/web/views/common/pagination.php", [
+            'pages' => $pages,
+            'url' => '/book/index'
+        ]); ?>
     </div>
 </div>
 <!-- 以下引入公共布局部分 -->

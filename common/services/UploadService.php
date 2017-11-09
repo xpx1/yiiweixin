@@ -3,6 +3,7 @@
 
 namespace app\common\services;
 
+use app\models\images\Images;
 /*
  * 上传服务
  */
@@ -43,6 +44,16 @@ class UploadService extends BaseService
         }else{
             file_put_contents( $upload_dir_path.$upload_file_name,file_get_contents($file_path) );//创建文件
         }
+
+        $image_url=\Yii::$app->params['domain']['www'].$upload_config[ $bucket ]."/";//图片路径前缀
+
+        //图片路径入库操作
+        $images=new Images();
+        $images->bucket=$bucket;
+        $images->file_key=$image_url.$upload_file_name;
+        $images->created_time=$date_now;
+        $images->save(0);
+
         return[
             'code' => 200,
             'path' => $upload_file_name,

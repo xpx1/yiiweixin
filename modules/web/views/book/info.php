@@ -1,21 +1,11 @@
-<!-- 以上引入公共布局部分 -->
-		<div class="row  border-bottom">
-	<div class="col-lg-12">
-		<div class="tab_title">
-			<ul class="nav nav-pills">
-								<li  class="current"  >
-					<a href="/web/book/index">图书列表</a>
-				</li>
-								<li  >
-					<a href="/web/book/cat">分类列表</a>
-				</li>
-								<li  >
-					<a href="/web/book/images">图片资源</a>
-				</li>
-							</ul>
-		</div>
-	</div>
-</div><style type="text/css">
+<?php
+use \app\common\services\UrlService;
+use \app\common\services\UtilService;
+use \app\common\services\StaticService;
+use \app\common\services\ConstantMapService;
+?>
+<?php echo \Yii::$app->view->renderFile("@app/modules/web/views/common/tab_book.php", ['current' => 'book']); ?>
+<style type="text/css">
 	.wrap_info img{
 		width: 70%;
 	}
@@ -25,21 +15,23 @@
 		<div class="row">
 			<div class="col-lg-12">
 				<div class="m-b-md">
-											<a class="btn btn-outline btn-primary pull-right" href="/web/book/set?id=1">
-							<i class="fa fa-pencil"></i>编辑
-						</a>
-										<h2>图书信息</h2>
+                    <?php if( $info && $info['status'] ):?>
+                        <a class="btn btn-outline btn-primary pull-right" href="<?=UrlService::buildWebUrl("/book/set",[ 'id' => $info['id'] ]);?>">
+                            <i class="fa fa-pencil"></i>编辑
+                        </a>
+                    <?php endif;?>
+					<h2>图书信息</h2>
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-lg-12">
-				<p class="m-t">图书名称：浪潮之巅</p>
-				<p>图书售价：88.88</p>
-				<p>库存总量：5</p>
-				<p>图书标签：浪潮,吴军</p>
-				<p>封面图：<img src="/uploads/book/20170301/7a976289c2c1f551a4f21232575ba255.jpg" style="width: 50px;height: 50px;"/> </p>
-				<p>图书描述：<p><span style="color: rgb(51, 51, 51); font-family: arial; font-size: 13px; background-color: rgb(255, 255, 255);">《</span><span style="color: rgb(204, 0, 0); font-family: arial; font-size: 13px; background-color: rgb(255, 255, 255);">浪潮之巅</span><span style="color: rgb(51, 51, 51); font-family: arial; font-size: 13px; background-color: rgb(255, 255, 255);">》是吴军所著图书，现已更新至第三版，由人民邮电出版社出版，主要讲述了IT产业发展的历史脉络和美国硅谷明星公司的兴衰沉浮。内容简介近一百多年来，总有一些公司很幸运地、有意识或者无意识地站在技术革命的浪尖之上。一旦处在了那个位置，即使不做任何事，也可以随着波浪顺顺当当地</span></p><p><span style="color: rgb(51, 51, 51); font-family: arial; font-size: 13px; background-color: rgb(255, 255, 255);"><br/></span></p><p><span style="color: rgb(51, 51, 51); font-family: arial; font-size: 13px; background-color: rgb(255, 255, 255);"><img src="/uploads/book/20170301/9ff354fe52dc26f672d7f94a58f6a2f4.jpg"/></span></p><p><span style="color: rgb(51, 51, 51); font-family: arial; font-size: 13px; background-color: rgb(255, 255, 255);"><img src="/uploads/book/20170301/e9a3909b1c2db975d1b3c21c249c684e.jpg"/></span></p></p>
+                <p class="m-t">图书名称：<?=UtilService::encode( $info['name'] ) ;?></p>
+                <p>图书售价：<?=UtilService::encode( $info['price'] ) ;?></p>
+                <p>库存总量：<?=UtilService::encode( $info['stock'] ) ;?></p>
+                <p>图书标签：<?=UtilService::encode( $info['tags'] ) ;?></p>
+                <p>封面图：<img src="<?=UrlService::buildPicUrl("book",$info['main_image']);?>" style="width: 50px;height: 50px;"/> </p>
+                <p>图书描述：<?=$info['summary'] ;?></p>
 			</div>
 		</div>
         <div class="row m-t">
@@ -1141,42 +1133,18 @@
                                     </tr>
                                     </thead>
                                     <tbody>
-                                                                                                                                    <tr>
-                                                    <td>-1</td>
-                                                    <td>在线购买</td>
-                                                    <td>2017-03-12 15:24:04</td>
+                                    <?php if($stock_change_list): ?>
+                                    <?php foreach ($stock_change_list as $value):?>
+                                                <tr>
+                                                    <td><?= $value['unit'] ?></td>
+                                                    <td><?= $value['note'] ?></td>
+                                                    <td><?= $value['created_time'] ?></td>
                                                 </tr>
-                                                                                            <tr>
-                                                    <td>-1</td>
-                                                    <td>在线购买</td>
-                                                    <td>2017-03-12 15:17:51</td>
-                                                </tr>
-                                                                                            <tr>
-                                                    <td>1</td>
-                                                    <td>在线购买</td>
-                                                    <td>2017-03-07 18:35:43</td>
-                                                </tr>
-                                                                                            <tr>
-                                                    <td>1</td>
-                                                    <td>在线购买</td>
-                                                    <td>2017-03-07 18:35:43</td>
-                                                </tr>
-                                                                                            <tr>
-                                                    <td>1</td>
-                                                    <td>在线购买</td>
-                                                    <td>2017-03-07 18:35:43</td>
-                                                </tr>
-                                                                                            <tr>
-                                                    <td>-1</td>
-                                                    <td></td>
-                                                    <td>2017-03-07 18:04:21</td>
-                                                </tr>
-                                                                                            <tr>
-                                                    <td>5</td>
-                                                    <td></td>
-                                                    <td>2017-03-07 18:04:10</td>
-                                                </tr>
-                                                                                                                        </tbody>
+                                    <?php endforeach; ?>
+                                    <?php else: ?>
+                                        <tr><td colspan="3">暂无变更</td></tr>
+                                    <?php endif; ?>
+                                    </tbody>
                                 </table>
                             </div>
                         </div>

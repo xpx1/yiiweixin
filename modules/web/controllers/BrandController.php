@@ -9,6 +9,7 @@ use app\models\UploadForm;
 use app\modules\web\controllers\common\BaseController;
 use yii\web\Controller;
 use yii\web\UploadedFile;
+use app\common\services\ConstantMapService;
 class BrandController extends BaseController
 {
 	/*
