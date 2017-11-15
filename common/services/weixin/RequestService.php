@@ -34,7 +34,9 @@ class RequestService extends  BaseService {
 		$model_access_token->save( 0 );
 		return $res['access_token'];
 	}
-
+    /*
+    * 请求微信的接口
+    */
 	public static function send($path,$data=[],$method = "GET"){
 
 		$request_url = self::$url.$path;
@@ -51,21 +53,29 @@ class RequestService extends  BaseService {
 		}
 		return $ret;
 	}
-
+    /*
+    * 设置appid app_token secret（获取access_token时要获取这三个值）
+    */
 	public static function setConfig($appid ,$app_token,$app_secret){
 		self::$appid = $appid; //设置appid 所以不需return appid可以存储在params.php中
 		self::$app_token = $app_token;
 		self::$app_secret = $app_secret;
 	}
-
+    /*
+    * 返回 Appid的方法
+    */
 	public static function getAppId(){
 		return self::$appid;
 	}
-
+    /*
+     * 返回 AppSecret的方法
+     */
 	public static function getAppSecret(){
 		return self::$app_secret;
 	}
-
+    /*
+     * 返回 AppToken的方法
+     */
 	public static function getAppToken(){
 		return self::$app_token;
 	}

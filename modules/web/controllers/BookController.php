@@ -210,14 +210,6 @@ class BookController extends BaseController
      */
     public function actionCat()
     {
-        return $this->render('cat');
-    }
-    /*
-        图书编辑或添加
-     */
-    public function actionCat_set()
-    {
-
         $status = intval( $this->get("status",ConstantMapService::$status_default ) );
         $query = Book_cat::find();
 
