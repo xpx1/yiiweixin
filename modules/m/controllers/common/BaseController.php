@@ -38,11 +38,11 @@ class BaseController extends BaseWebController {
     public function __construct($id, $module, $config = []){
         parent::__construct($id, $module, $config = []);
         $this->layout = "main";
-
+        //地址分享所需的变量 \Yii::$app->view->params['share_info'] 前端模板也可访问
         \Yii::$app->view->params['share_info'] = json_encode( [
             'title' => \Yii::$app->params['title'],
             'desc' => \Yii::$app->params['title'],
-            'img_url' => UrlService::buildWwwUrl("/images/common/qrcode.jpg"),
+            'img_url' => UrlService::buildWwwUrl("/images/m/bianji@3x.png"),
         ] );
     }
 

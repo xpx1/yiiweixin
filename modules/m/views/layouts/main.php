@@ -43,7 +43,7 @@ $brand_name=$brand[0]['name'];
 </div>
 <?php endif;?>
 <div class="layout_hide_wrap hidden">
-    <input type="hidden" id="share_info" value='<?=Yii::$app->getView()->params['share_info'];?>'>
+    <input type="hidden" id="share_info" value='<?=Yii::$app->getView()->params['share_info'];?>'> <!--取出分享所需的变量，是之使用main.php的文件都可使用该变量-->
 </div>
 <?php $this->endBody()?>
 </body>

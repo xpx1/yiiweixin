@@ -50,7 +50,7 @@ class UserController extends BaseController
 
         $member_info = Member::find()->where(['mobile' => $mobile, 'status' => 1])->one();//member表里有该字段就直接登录跳转，没有就插入一条数据
 
-        if ( !$member_info || !$member_info['status']) {
+        if ($member_info&&$member_info['status']==0) {
             return $this->renderJSON([], "您的账号已被禁止，请联系客服解决~~", -1);
         }
 
@@ -70,7 +70,9 @@ class UserController extends BaseController
             $model_member->save(0);
             $member_info = $model_member;
         }
-
+        if (!$member_info||!$member_info['status']) {
+            return $this->renderJSON([], "您的账号已被禁止，请联系客服解决~~", -1);
+        }
         if ($openid)
         {
             $bind_info = Oauth_member_bind::find()->where([ 'member_id' => $member_info['id'],'openid' => $openid,'type' => ConstantMapService::$client_type_wechat  ])->one();

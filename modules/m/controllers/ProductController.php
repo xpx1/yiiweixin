@@ -10,6 +10,7 @@ use app\models\member\MemberFav;
 use app\common\services\UrlService;
 use app\common\services\UtilService;
 use app\common\services\ConstantMapService;
+use app\common\services\PayOrderService;
 class ProductController extends BaseController
 {
 	/*
@@ -156,7 +157,84 @@ class ProductController extends BaseController
      */
     public function actionOrder()
     {
-        return $this->render('order');
+        if( \Yii::$app->request->isGet ) {
+            $book_id = intval($this->get("id", 0));
+            $quantity = intval($this->get("quantity", 1));
+//            $sc = $this->get("sc", "product");//sc source 来源
+            $product_list = [];
+            $total_pay_money = 0;
+            if( $book_id ){
+                $book_info = Book::find()->where([ 'id' => $book_id ])->one();
+                if( $book_info ){
+                    $product_list[] = [
+                        'id' => $book_info['id'],
+                        'name' => UtilService::encode( $book_info['name'] ),
+                        'quantity' => $quantity,
+                        'price' => $book_info['price'],
+                        'main_image' =>  UrlService::buildPicUrl( "book",$book_info['main_image'])
+                    ];
+                    $total_pay_money += $book_info['price'] * $quantity;
+                }
+            }
+            return $this->render("order",[
+                'product_list' => $product_list,
+                'total_pay_money' => sprintf("%.2f",$total_pay_money),
+            ]);
+        }
+//        $sc = trim( $this->post("sc","") ); 地址
+        $product_items = $this->post("product_items",[]);
+        $address_id = intval( $this->post("address_id",0 ) );
+
+//        if( !$address_id ){
+//            return $this->renderJSON([],"请选择收货地址~~",-1);
+//        }
+
+        if( !$product_items ){
+            return $this->renderJSON([],"请选择商品之后在提交~~",-1);
+        }
+
+        $book_ids = [];  //一件订单有多个商品，所以商品都放入一个数组中
+        foreach( $product_items as $_item ) {
+            $tmp_item_info = explode("#", $_item);  //$product_items除了 商品id外还有商品数量且以"#"分割
+            $book_ids[] = $tmp_item_info[ 0 ];
+        }
+
+        $book_mapping = Book::find()->where([ 'id' => $book_ids ])->indexBy("id")->all();
+        if( !$book_mapping ){
+            return $this->renderJSON([],"请选择商品之后在提交~~",-1);
+        }
+
+        $target_type = 1;
+        $items = [];
+        foreach( $product_items as $_item ){
+            $tmp_item_info = explode("#",$_item); //分割数组
+            $tmp_book_info = $book_mapping[ $tmp_item_info[0] ];
+            $items[] = [
+                'price' => $tmp_book_info['price'] * $tmp_item_info[1],
+                'quantity' => $tmp_item_info[1],
+                'target_type' => $target_type,
+                'target_id' => $tmp_item_info[0]
+            ];
+        }
+
+
+        $params = [
+            'pay_type' => 1,
+            'pay_source' => 2,
+            'target_type' => $target_type,
+            'note' => '购买书籍',
+            'status' => -8,
+            'express_address_id' => $address_id
+        ];
+
+
+        $ret = PayOrderService::createPayOrder( $this->current_user['id'],$items,$params );
+
+        if( !$ret ){
+            return $this->renderJSON([],"提交失败，失败原因：".PayOrderService::getLastErrorMsg(),-1 );
+        }
+
+        return $this->renderJSON([ 'url' => UrlService::buildMUrl("/pay/buy/?pay_order_id={$ret['id']}") ],'下单成功,前去支付~~' );
     }
     /*
      * 搜索方法

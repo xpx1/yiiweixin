@@ -26,9 +26,11 @@ class MAsset extends AssetBundle
         'css/m/app.css?ver='.$VERSION
         ];
         $this->js = [
+            'https://res.wx.qq.com/open/js/jweixin-1.2.0.js', //引入微信js接口文件 用电脑分享可以，手机不行
             'plugins/jquery-2.1.1.js',
             'js/m/TouchSlide.1.1.js',
-            'js/m/common.js?ver='.$VERSION
+            'js/m/common.js?ver='.$VERSION,
+            'js/m/weixin.js?ver='.$VERSION //引入微信js接口文件
         ];
         parent::registerAssetFiles($view);  //采用覆盖基类的方式
     }

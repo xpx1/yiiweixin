@@ -1,11 +1,11 @@
 <?php
 //配置域名即链接 (为了便于域名信息的更改)
 return [
-    'title' => '编程浪子微信图书商城',
+    'title'=>'编程浪子微信图书商城',
     'domain' =>[
-        'www'=>'http://www.yiiweixin.com',//ngrok域名  http://www.yiiweixin.com
-        'web'=>'http://www.yiiweixin.com/web', //http://www.yiiweixin.com/web
-        'm'=>'http://www.yiiweixin.com/m' //http://www.yiiweixin.com
+        'www'=>'http://www.xupengxiangvip.com',//ngrok域名  http://www.yiiweixin.com
+        'web'=>'http://www.xupengxiangvip.com/web', //http://www.yiiweixin.com/web
+        'm'=>'http://www.xupengxiangvip.com/m' //http://www.yiiweixin.com
     ] ,
     'upload' => [
         'avatar' => '/uploads/avatar',
